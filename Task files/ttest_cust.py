@@ -1,3 +1,6 @@
+import numpy as np
+import scipy.stats as sts
+
 def ttest_ind_cust(a, b):
     a = np.array(a)
     b = np.array(b)
